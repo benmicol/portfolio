@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,12 +32,64 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+  <div class="section intro">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h1 class="intro-heading">Ben Micol - Web Developer</h1>
+          </div>
       </div>
+      <div class="row" style="margin-top: 10%">
+        <div class="one-third column">
+          <h2>Fast</h2>
+          <p>Optimized pages for quick loading times and a superior user experience.</p>
+        </div>
+        <div class="one-third column">
+          <h2>Efficient</h2>
+          <p>Websites built the right way. No bloat.</p>
+        </div>
+        <div class="one-third column">
+          <h2>Design</h2>
+          <p>Elegant layouts that combine form and function.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section sites">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <img class="site" src="images/ftt.jpeg">
+        </div>
+        <div class="one-half column">
+          <img class="site" src="images/hha.jpeg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section contact">
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">Your email</label>
+            <input class="u-full-width" placeholder="Enter Email" id="exampleEmailInput" type="email">
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">Reason for contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Questions</option>
+              <option value="Option 2">Quote</option>
+              <option value="Option 3">Support</option>
+            </select>
+          </div>
+        </div>
+        <label for="exampleMessage">Message</label>
+          <textarea class="u-full-width" placeholder="Enter Message" id="exampleMessage"></textarea>
+        <input class="button-primary" value="Submit" type="submit">
+      </form>
     </div>
   </div>
 

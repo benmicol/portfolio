@@ -1,0 +1,45 @@
+/* Custom CSS rules for portfolio website
+------------------------------------------*/
+
+/* Sections
+------------------------------------------*/
+.section {
+	padding: 8rem 0 7em;
+	text-align: center;
+
+}
+.section-heading,
+.section-description {
+	margin-bottom: 1.2rem;
+}
+
+/* Intro
+------------------------------------------*/
+.intro {
+	background-image: url('../images/background2.jpeg');
+	background-size: cover;
+	color: #fff;
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+}
+
+/* Reasons
+------------------------------------------*/
+
+
+/* Sites
+------------------------------------------*/
+
+/* Contact
+------------------------------------------*/
+.contact {
+	background-image: url('../images/background.jpeg');
+	background-size: cover;
+	padding-top: 10rem;
+	padding-bottom: 15rem;
+	color: #fff;
+}
+
+.u-full-width {
+	color: #000;
+}
